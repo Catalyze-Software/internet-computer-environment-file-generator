@@ -1,0 +1,38 @@
+{
+    "cycles_management_controller": {
+        "development": "tfpzd-cqaaa-aaaam-qamia-cai",
+        "staging": "tfpzd-cqaaa-aaaam-qamia-cai",
+        "production": "tfpzd-cqaaa-aaaam-qamia-cai",
+        "ic": "tfpzd-cqaaa-aaaam-qamia-cai"
+    },
+    "user_controller": {
+        "development": "yfnxe-7qaaa-aaaag-aaieq-cai",
+        "staging": "qlip4-yyaaa-aaaag-aajta-cai",
+        "production": "g4oks-biaaa-aaaal-qa3ta-cai",
+        "ic": "jr7cs-fiaaa-aaaal-aaiqq-cai"
+    },
+    "management_controller": {
+        "development": "mix2w-yqaaa-aaaal-qa2lq-cai",
+        "staging": "r3orl-tyaaa-aaaak-qaoba-cai",
+        "production": "ml5iu-4qaaa-aaaan-qahiq-cai",
+        "ic": "r3vn3-ryaaa-aaaag-aachq-cai"
+    },
+    "group_management_controller": {
+        "development": "feeig-haaaa-aaaak-aat5a-cai",
+        "staging": "3o6jj-hiaaa-aaaap-qajeq-cai",
+        "production": "nz5tn-zqaaa-aaaag-qak3q-cai",
+        "ic": "io636-paaaa-aaaak-aakpa-cai"
+    },
+    "storage_management_controller": {
+        "development": "qpoty-vaaaa-aaaam-qahtq-cai",
+        "staging": "meyns-xyaaa-aaaak-aavqa-cai",
+        "production": "qmjji-vaaaa-aaaag-aajtq-cai",
+        "ic": "ij75k-cyaaa-aaaak-aakpq-cai"
+    },
+    "report_controller": {
+        "development": "cp23e-7iaaa-aaaap-qahvq-cai",
+        "staging": "o2lev-uiaaa-aaaam-qajra-cai",
+        "production": "5htpj-aqaaa-aaaap-aaesa-cai",
+        "ic": "g33n5-zyaaa-aaaam-qadwq-cai"
+    }
+}

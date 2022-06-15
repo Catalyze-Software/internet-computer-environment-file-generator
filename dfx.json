@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "test_for_generate": {
-      "main": "src/test_for_generate/main.mo",
+    "ic_project": {
+      "main": "src/ic_project/main.mo",
       "type": "motoko"
     },
-    "test_for_generate_assets": {
+    "ic_project_assets": {
       "dependencies": [
-        "test_for_generate"
+        "ic_project"
       ],
       "frontend": {
-        "entrypoint": "src/test_for_generate_assets/src/index.html"
+        "entrypoint": "src/ic_project_assets/src/index.html"
       },
       "source": [
-        "src/test_for_generate_assets/assets",
-        "dist/test_for_generate_assets/"
+        "src/ic_project_assets/assets",
+        "dist/ic_project_assets/"
       ],
       "type": "assets"
     }
