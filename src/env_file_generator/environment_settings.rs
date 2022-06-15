@@ -1,1 +1,1 @@
-pub const ENVIRONMENT: &str = "staging";pub const FOO_CANISTER_ID: &str = "foo_staging_canister_id";pub const BAR_CANISTER_ID: &str = "bar_staging_canister_id";
+pub const ENVIRONMENT: &str = "development";pub const FOO_CANISTER_ID: &str = "foo_development_canister_id";pub const BAR_CANISTER_ID: &str = "bar_development_canister_id";
