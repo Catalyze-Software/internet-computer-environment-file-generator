@@ -1,35 +1,32 @@
 {
   "canisters": {
-    "ic_project": {
-      "main": "src/ic_project/main.mo",
+    "foo_canister": {
+      "main": "src/ic_project/foo_main.mo",
       "type": "motoko"
     },
-    "ic_project_assets": {
-      "dependencies": [
-        "ic_project"
-      ],
-      "frontend": {
-        "entrypoint": "src/ic_project_assets/src/index.html"
-      },
-      "source": [
-        "src/ic_project_assets/assets",
-        "dist/ic_project_assets/"
-      ],
-      "type": "assets"
+    "bar_canister": {
+      "main": "src/ic_project/bar_main.mo",
+      "type": "motoko"
     }
   },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
-    }
-  },
-  "dfx": "0.10.0",
   "networks": {
-    "local": {
-      "bind": "127.0.0.1:8000",
-      "type": "ephemeral"
+    "development": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    },
+    "staging": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    },
+    "production": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
     }
-  },
-  "version": 1
+  }
 }
